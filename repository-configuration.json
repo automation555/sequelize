@@ -1,0 +1,100 @@
+{
+    "gammaAccess": {
+        "url": "",
+        "token": ""
+    },
+    "repositories": [
+        {
+            "dataDir": "$WORKSPACE/demo",
+            "repository": {
+                "uid": "f4f026b456ac427c407727d22fb0e320",
+                "projectName": "javascript",
+                "languages": [
+                    "JAVASCRIPT"
+                ],
+                "sources": {
+                    "baseDir": "$WORKSPACE",
+                    "exclusions": [
+                        "node_modules",
+                        ".min.js",
+                        "dist",
+                        "external",
+                        "assets",
+                        "gulp",
+                        "grunt",
+                        "libs",
+                        "-bundle.js",
+                        ".bundle.js",
+                        "swagger-ui",
+                        ".config.js",
+                        "-config.js",
+                        "UNKNOWN_FILE",
+                        ".git",
+                        ".ebextensions",
+                        "test",
+                        ".lib",
+                        ".library",
+                        ".zip"
+                    ]
+                }
+            },
+            "settings": {
+                "additionalOptions": [],
+                "includePaths": []
+            },
+            "modules": {
+                "codeissues": [
+                    {
+                        "name": "gamma_generic",
+                        "enabled": false,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "reportDir",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "jshint",
+                        "enabled": false,
+                        "config": {
+                            "rules": [],
+                            "options": []
+                        }
+                    },
+                    {
+                        "name": "eslint",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": []
+                        }
+                    },
+                    {
+                        "name": "gamma_js",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": []
+                        }
+                    }
+                ],
+                "relevance": [
+                    {
+                        "name": "relevance",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": []
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
